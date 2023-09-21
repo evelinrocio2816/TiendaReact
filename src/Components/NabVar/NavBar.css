@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 30px;
+    background-color: #b77f19;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border: 2px solid black;
+  }
+  Link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b77f19;
+    gap: 1rem;
+    color: aliceblue;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style-type: none;
+  }
