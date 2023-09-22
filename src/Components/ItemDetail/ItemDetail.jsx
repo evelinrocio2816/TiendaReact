@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ItemDetail.css"
+import Contador from '../Contador/Contador'
 
 const ItemDetail = ({id,img,precio,nombre}) => {
   return (
@@ -10,6 +11,7 @@ const ItemDetail = ({id,img,precio,nombre}) => {
         <h3>Precio : $ {precio} </h3>
         <h3> ID: {id} </h3>
         <p> <b>Descripcion:</b>No se que poner aca todavia xD</p>
+        <Contador stock={10} inicial={1}/>
        </div>
     </div>
   )
