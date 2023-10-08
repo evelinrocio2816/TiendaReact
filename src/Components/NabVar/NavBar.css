@@ -11,7 +11,7 @@ header {
     align-items: center;
   
     padding: 30px;
-    background-color: #b77f19;
+    background-color: black;
     border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     border: 2px solid black;
@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b77f19;
+    background-color: black;
     gap: 1rem;
     color: aliceblue;
   }
@@ -36,4 +36,10 @@ header {
     flex-direction: row;
     gap: 1rem;
     list-style-type: none;
+  }
+ 
+  .Rutas{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
   }

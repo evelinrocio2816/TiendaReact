@@ -10,13 +10,14 @@ function NavBar() {
       <>
       <Logo/>
        <nav> 
-         <Link to="/">
-        <h4>Home</h4>
+        <Link to="/">
+        <li className="Rutas">Home</li>
         </Link>
-          <ul>
-            <li className="rutas"> <NavLink to="/categoria/2"> Alimentos</NavLink> </li>
-            <li className="rutas"> <NavLink to="/categoria/3"> Accesorios</NavLink> </li>
-            <li className="rutas"> <NavLink to="/categoria/4"> Juguetes</NavLink> </li>
+          <ul> 
+            
+            <li className="rutas"> <NavLink className="Rutas" to="/categoria/2"> Alimentos</NavLink> </li>
+            <li className="rutas"> <NavLink className="Rutas" to="/categoria/3"> Accesorios</NavLink> </li>
+            <li className="rutas"> <NavLink className="Rutas" to="/categoria/4"> Juguetes</NavLink> </li>
           </ul>
       
       </nav>

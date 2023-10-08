@@ -4,19 +4,20 @@
     flex-wrap: wrap;
     width: 50%;
     height: 400px;
-    border: 2px solid black;
+   
     justify-content:space-around;
     margin-left: 20%;
     margin-top: 10%;
+    margin-bottom: 10%;
      align-items: center;
-     border-radius: 20px;
-     background-color: lightgoldenrodyellow;
+  
 }
 .datosCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .imgCards{
     width: 250px;

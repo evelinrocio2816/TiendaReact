@@ -10,7 +10,7 @@
     padding: 10px;
      align-items: center;
      border-radius: 20px;
-     background-color: lightgoldenrodyellow;
+     background-color: white;
 }
 .imgCard{
    
@@ -18,12 +18,12 @@
     width: 150px;
     height: 150px;
     margin: 5px;
-    border: 5px outset gray;
+    border: 2px outset gray;
     background-color: white;
 }
 
 button{
-    background-color: black;
+    background-color: red;
     border-radius: 15px;
     color: white;
     margin-top: 10px;

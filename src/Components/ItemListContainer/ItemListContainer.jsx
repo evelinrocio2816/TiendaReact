@@ -1,30 +1,27 @@
-import"./ItemListContainer.css"
-import { useState,useEffect } from "react"
-import { getProduct, getProductosPorCategoria } from "../../AsincMock"
-import ItemList from "../ItemList/ItemList"
-import { useParams } from "react-router-dom"
-
+import "./ItemListContainer.css";
+import { useState, useEffect } from "react";
+import { getProduct, getProductosPorCategoria } from "../../AsincMock";
+import ItemList from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = (props) => {
-    const [product,setProduct]=useState([])
+  const [product, setProduct] = useState([]);
 
-    const {idCategoria}=useParams();
+  const { idCategoria } = useParams();
 
-    useEffect( ()=>{
-      const funcion = idCategoria? getProductosPorCategoria: getProduct ;
+  useEffect(() => {
+    const funcion = idCategoria ? getProductosPorCategoria : getProduct;
 
-      funcion(idCategoria)
-      .then(res => setProduct(res))  
-    
-    },[idCategoria])
-
+    funcion(idCategoria).then((res) => setProduct(res));
+  }, [idCategoria]);
 
   return (
     <>
-        <h2>{props.greeting}</h2>
-        <ItemList product={product}/>
+      <h2>{props.greeting}</h2>
+      <ItemList product={product} />
+      <img className="ImgFondo" src="../img/mascotitas.webp" alt="Mascotitas" />
     </>
-  )
-}
+  );
+};
 
-export default ItemListContainer
+export default ItemListContainer;
