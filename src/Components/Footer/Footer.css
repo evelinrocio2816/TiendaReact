@@ -11,3 +11,11 @@ footer{
 .copyRight{
     color: white;
 }
+.imgFooter{
+   display: flex;
+   justify-content: space-between;
+ flex-direction: row;
+ width: 40px;
+ height: 40px;
+ gap:5px;
+}
