@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .title-checkout{
+    padding: 15px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-decoration:2px solid black;
+  
+  }
+  .TerminarCompra{
+    background-color: red;
+    padding: 20px;
+    border-radius: 45%;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .checkout-cart{
+    margin-left: 10%;
+    padding-top: 20px;
+    margin-right: 10%;
+  }
+  span{
+    color: red;
+  }
+  .form-group{
+    display:flex ;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 10%;
+    
+  }
+  .btnForm{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    
+  }
+
+  .orderId{
+    color: goldenrod;font-size: 30px;
+  }

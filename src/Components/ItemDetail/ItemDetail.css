@@ -1,14 +1,14 @@
 .containerCard{
-  display: inline-flex;
-    flex-direction: row;
+  display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
-    height: 400px;
+    width: 100%;
+    
    
     justify-content:space-around;
-    margin-left: 20%;
-    margin-top: 10%;
+ 
     margin-bottom: 10%;
+    padding: 100px;
      align-items: center;
   
 }
@@ -20,9 +20,16 @@
     margin-bottom: 20px;
 }
 .imgCards{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 5px inset black;
     box-shadow: 10px 10px ;
   
+}
+.BtnTerminarCompra{
+  background-color: red;
+  padding: 20px;
+  border-radius: 45%;
+  text-decoration: none;
+  color: aliceblue;
 }

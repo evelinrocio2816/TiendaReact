@@ -9,12 +9,12 @@ import { useContext } from "react";
 const ItemDetail = ({ id, img, price, nombre, stock,description }) => {
   const [addQuantity, setAddQuantity] = useState(0);
 
-  const {addProduc}=useContext(CartContext)
+  const {addProduct}=useContext(CartContext)
 
   const handleQuantity = (quantity) => {
     setAddQuantity(quantity);
    const item={id, price,nombre};
-  addProduc(item,quantity)
+  addProduct(item,quantity)
   };
  
 
@@ -23,13 +23,12 @@ const ItemDetail = ({ id, img, price, nombre, stock,description }) => {
       <img className="imgCards" src={img} alt={nombre} />
       <div className="datosCard">
         <h2>Nombre: {nombre}</h2>
-        <h3>Precio : $ {price} </h3>
-        <h3> ID: {id} </h3>
-        <p>Descripcion:{description}</p>
+        <h3>Precio :${price} </h3>
+        <p> <b>Descripcion:</b>{description}</p>
       </div>
 
       {addQuantity > 0 ? (
-        <Link to="/Cart">Terminar Compra</Link>
+        <Link className="BtnTerminarCompra" to="/Cart">Terminar Compra</Link>
       ) : (
         <Contador initial={1} stock={stock} addFunction={handleQuantity} />
       )}

@@ -1,8 +1,42 @@
-# React + Vite
+#Tienda de Mascotas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Es un proyecto e-commerce utilizado para el curso de react. La aplicacion permite ver una lista de productos y realizar compras en linea y las ordenes se almacenan en firebase.
 
-Currently, two official plugins are available:
+##Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-vite
+
+-react
+
+-React router
+
+-firebase
+
+##funcionalidades
+
+-ver una lista de productos disponibles
+
+-Agregar productos al carrito de compras
+
+-ver el carrito de compras.
+
+-realizar una orden de compras
+
+##Instalacion
+
+###Para instalar y ejecutar la aplicacion en tu maquina local , sigue los siguientes pasos.
+
+1-clona tu repositorio en tu maquina local
+
+2-Abre una terminal en el directorio del proyecto
+
+3-Ejecuta el comando npm install para instalar las dependencias
+
+4-Ejecuta el comando npm run dev para iniciar la aplicacion
+
+5-Abre tu navegador y navega a http:// localhost:5173 para ver la aplicacion en accion
+
+
+##Licencia 
+
+Este Proyecto esta bajo la licencia Mit consulta el archivo License para obtener mas informacion
