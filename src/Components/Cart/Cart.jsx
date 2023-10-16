@@ -21,6 +21,7 @@ const Cart = () => {
       ))}
       <h3>Total de la compra:${total}</h3>
       <h3>Cantidad Total ${totalQuantity}</h3>
+    
       <div className="buttonCart">
       <button  className="boton-dos" onClick={() => emptyCart()}>Vaciar Carrito</button>
     <Link   className="boton-dos" to="/checkout">Finalizar Compra</Link>

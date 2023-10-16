@@ -143,7 +143,9 @@ const Checkout = () => {
         {orderId && (
           <strong className="btnForm" >
             Gracias Por tu compra ! Tu numero de orden es: <span className="orderId"> {orderId}</span>
+            <img src="../img/logo-tdm.jpg" alt="" />
           </strong>
+          
         )}
         </div>
       
