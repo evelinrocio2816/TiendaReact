@@ -1,21 +1,68 @@
-footer{
-    background-color:black;
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Estilos básicos para el footer */
+footer {
+    background-color: #333; /* Fondo negro para el footer */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 20px;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 30px;
-    margin-top: 0px;
-    border: 2px solid black;
-}
-
-.copyRight{
-    color: white;
-}
-.imgFooter{
-   display: flex;
-   justify-content: space-between;
- flex-direction: row;
- width: 40px;
- height: 40px;
- gap:5px;
-}
+  }
+  
+  /* Estilos para el texto de copyright */
+  .copyRight {
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Estilos para el contenedor de las imágenes de redes sociales */
+  .imgFooter {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre las imágenes */
+    margin: 20px 0;
+  }
+  
+  /* Estilos para las imágenes de redes sociales */
+  .image-footer {
+    width: 30px; /* Tamaño de las imágenes */
+    height: 30px;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Efecto de hover en las imágenes de redes sociales */
+  .image-footer:hover {
+    opacity: 0.8; /* Efecto de atenuación en hover */
+  }
+  
+  /* Estilos para el logo */
+  footer .logo {
+    margin-top: 20px;
+    max-width: 150px; /* Ajusta el tamaño del logo */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .imgFooter {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .image-footer {
+      width: 40px; /* Aumenta el tamaño de las imágenes en pantallas pequeñas */
+      height: 40px;
+      margin: 10px 0; /* Margen vertical entre las imágenes */
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .image-footer {
+      width: 50px; /* Ajusta aún más el tamaño en pantallas muy pequeñas */
+      height: 50px;
+    }
+  }
+  

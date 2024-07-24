@@ -1,1 +1,77 @@
 
+  
+  /* Estilos para los botones de incrementar y decrementar */
+  button {
+    background-color: slategray; /* Slateblue para los botones */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Texto blanco */
+    font-size: 1.2em;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover para los botones de incrementar y decrementar */
+  button:hover {
+    background-color: #6a5acd; /* Slateblue oscuro en hover */
+  }
+  
+  /* Estilos para el contador */
+  strong {
+    font-size: 1.5em;
+    color: slateblue; /* Slateblue para el contador */
+    margin: 0 10px;
+  }
+  
+  /* Estilos para el botón de agregar al carrito */
+  button:last-of-type {
+    background-color: slateblue; /* Slateblue para el botón de agregar */
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Hover para el botón de agregar al carrito */
+  button:last-of-type:hover {
+    background-color: #6a5acd; /* Slateblue oscuro en hover */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    button {
+      font-size: 1em;
+      padding: 8px 12px;
+    }
+  
+    strong {
+      font-size: 1.2em;
+    }
+  
+    button:last-of-type {
+      font-size: 1em;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    div {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    button {
+      font-size: 0.9em;
+      padding: 6px 10px;
+    }
+  
+    strong {
+      font-size: 1em;
+    }
+  
+    button:last-of-type {
+      font-size: 0.9em;
+      padding: 8px 12px;
+    }
+  }
+  

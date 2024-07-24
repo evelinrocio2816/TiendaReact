@@ -1,0 +1,60 @@
+*{
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Estilos básicos para la sección de contactos */
+.contact-section {
+    background-color: slategrey;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* Estilos para el título de la sección */
+  .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: rgb(59, 54, 91);
+  }
+  
+  /* Estilos para la información de contacto */
+  .contact-info {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 20px;
+    }
+  
+    .contact-section h2 {
+      font-size: 1.5em;
+    }
+  
+    .contact-info {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-section {
+      padding: 15px;
+    }
+  
+    .contact-section h2 {
+      font-size: 1.2em;
+    }
+  
+    .contact-info {
+      font-size: 0.9em;
+    }
+  }
+  

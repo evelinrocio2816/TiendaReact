@@ -1,15 +1,13 @@
 import "./ItemListContainer.css";
 import { useState, useEffect } from "react";
-//import { getProduct, getProductosPorCategoria } from "../../AsincMock";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../../Services/config";
+import ContactSection from "../ContactSection/ContactSection";
 
 const ItemListContainer = (props) => {
   const [product, setProduct] = useState([]);
-
   const { idCategoria } = useParams();
 
   useEffect(() => {
@@ -29,11 +27,16 @@ const ItemListContainer = (props) => {
   }, [idCategoria]);
 
   return (
-    <>
+    <div className="item-list-container">
       <h2>{props.greeting}</h2>
-      <ItemList product={product} />
-      <img className="ImgFondo" src="../img/mascotitas.webp" alt="Mascotitas" />
-    </>
+      <ItemList product={product} className="item-list" />
+      <div>
+      <h2>Contactos</h2>
+      <ContactSection/>
+    </div>
+
+    </div>
+    
   );
 };
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Contador.css"
 
 const Contador = ({ stock, initial, addFunction }) => {
   const [counter, setCounter] = useState(initial);

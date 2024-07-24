@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-//import { getUnProducto } from "../../AsincMock"
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
 import { getDoc, doc } from "firebase/firestore";
 import { db } from "../../Services/config";
+import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState(null);

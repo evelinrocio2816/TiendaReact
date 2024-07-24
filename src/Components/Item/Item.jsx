@@ -14,8 +14,10 @@ const Item = ({ id, nombre, price, img, stock }) => {
         <Link className="btnDetalles" to={`/item/${id}`}>
           Ver Detalles
         </Link>
-      </button>
+      </button> 
+      
     </div>
+   
   );
 };
 

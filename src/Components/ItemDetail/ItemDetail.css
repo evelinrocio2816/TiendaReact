@@ -1,35 +1,104 @@
-.containerCard{
-  display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    
-   
-    justify-content:space-around;
- 
-    margin-bottom: 10%;
-    padding: 100px;
-     align-items: center;
-  
-}
-.datosCard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.imgCards{
-    width: 200px;
-    height: 200px;
-    border: 5px inset black;
-    box-shadow: 10px 10px ;
-  
-}
-.BtnTerminarCompra{
-  background-color: red;
+/* Estilos básicos para el contenedor de la tarjeta del producto */
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque; /* Fondo blanco para contraste */
+  border: 1px solid #703c3c; /* Borde gris claro */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   padding: 20px;
-  border-radius: 45%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  max-width: 800px; /* Ancho máximo para el contenedor */
+  text-align: center;
+}
+
+/* Estilos para la imagen del producto */
+.imgCards {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-width: 600px; /* Ajusta el tamaño máximo de la imagen */
+}
+
+/* Estilos para los datos de la tarjeta */
+.datosCard {
+  margin-top: 20px;
+}
+
+/* Estilos para el nombre del producto */
+.datosCard h2 {
+  color: #fff; /* Color negro oscuro para el texto */
+  margin-bottom: 10px;
+}
+
+/* Estilos para el precio del producto */
+.datosCard h3 {
+  color: #ffff; /* Naranja para el precio */
+  margin-bottom: 15px;
+}
+
+/* Estilos para la descripción del producto */
+.datosCard p {
+  color: #555; /* Gris oscuro para la descripción */
+  font-size: 20px;
+}
+
+/* Estilos para el botón de terminar compra */
+.BtnTerminarCompra {
+  background-color: slategray; /* Rojo para el botón */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   text-decoration: none;
-  color: aliceblue;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.BtnTerminarCompra:hover {
+  background-color: slateblue; /* Rojo más oscuro en hover */
+}
+
+/* Estilos para el componente de contador */
+.Contador {
+  margin-top: 20px;
+  
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .containerCard {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .imgCards {
+    max-width: 100%; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .containerCard {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .imgCards {
+    max-width: 100%;
+  }
+
+  .datosCard h2,
+  .datosCard h3,
+  .datosCard p {
+    font-size: 0.8rem; /* Ajusta el tamaño del texto en pantallas muy pequeñas */
+  }
+
+  .BtnTerminarCompra {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
 }

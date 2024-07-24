@@ -5,6 +5,7 @@ const CartItem = ({ item, quantity }) => {
   const { deleteProduct } = useContext(CartContext);
   return (
     <div>
+      
       <h3>{item.nombre}</h3>
       <p>Cantidad:{quantity} </p>
       <p>Precio:{item.price} </p>

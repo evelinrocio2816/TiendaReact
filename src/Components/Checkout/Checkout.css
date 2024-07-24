@@ -1,45 +1,126 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .title-checkout{
+/* Estilos básicos para el contenedor del checkout */
+.checkout-cart {
+  padding: 20px;
+  background-color: #fff; /* Fondo blanco para contrastar */
+  border: 1px solid #000; /* Borde negro */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+/* Estilos para el título del checkout */
+.title-checkout {
+  color: slateblue; /* Naranja para el título */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los productos en el carrito */
+.checkout-cart div {
+  margin-bottom: 15px;
+}
+
+.checkout-cart p {
+  color: #000; /* Negro para el texto de los productos */
+}
+
+/* Estilos para el formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  color: #000; /* Negro para las etiquetas */
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000; /* Borde negro */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="number"] {
+  -moz-appearance: textfield; /* Elimina flechas en campos numéricos */
+}
+
+.form-group input[type="number"]::-webkit-inner-spin-button,
+.form-group input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+  color: #d32f2f; /* Rojo para los errores */
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Estilos para el botón de formulario */
+.btnForm {
+  background-color: slategray; /* Naranja para el botón */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.btnForm:hover {
+  background-color: slateblue; /* Rojo para el hover en el botón */
+}
+
+/* Estilos para la cantidad total y número de orden */
+.checkout-cart p:last-of-type {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000; /* Negro para el texto */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.orderId {
+  color: #fff; /* Naranja para el número de orden */
+  font-weight: bold;
+}
+
+/* Estilos para la imagen del logo en el agradecimiento */
+.checkout-cart img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .checkout-cart {
     padding: 15px;
-    color: red;
-    display: flex;
-    justify-content: center;
-    text-decoration:2px solid black;
-  
   }
-  .TerminarCompra{
-    background-color: red;
-    padding: 20px;
-    border-radius: 45%;
-    text-decoration: none;
-    color: aliceblue;
-  }
-  .checkout-cart{
-    margin-left: 10%;
-    padding-top: 20px;
-    margin-right: 10%;
-  }
-  span{
-    color: red;
-  }
-  .form-group{
-    display:flex ;
-    flex-direction: column;
-    margin-left: 20%;
-    margin-right: 10%;
-    
-  }
-  .btnForm{
-    margin-left: 20%;
-    margin-bottom: 5%;
-    font-size: 20px;
-    
+}
+
+@media (max-width: 480px) {
+  .checkout-cart {
+    padding: 10px;
   }
 
-  .orderId{
-    color: goldenrod;font-size: 30px;
+  .form-group input {
+    padding: 8px;
   }
+
+  .btnForm {
+    padding: 8px 16px;
+  }
+
+  .checkout-cart img {
+    width: 100px;
+    
+  }
+}
