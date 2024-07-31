@@ -4,8 +4,8 @@
 }
 /* Estilos básicos para el footer */
 footer {
-    background-color: #333; /* Fondo negro para el footer */
-    color: #fff; /* Texto blanco para contraste */
+    background-color: #333; 
+    color: #fff; 
     padding: 20px;
     text-align: center;
     display: flex;
@@ -23,26 +23,26 @@ footer {
   .imgFooter {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Espacio entre las imágenes */
+    gap: 15px; 
     margin: 20px 0;
   }
   
   /* Estilos para las imágenes de redes sociales */
   .image-footer {
-    width: 30px; /* Tamaño de las imágenes */
+    width: 30px; 
     height: 30px;
     transition: opacity 0.3s ease;
   }
   
   /* Efecto de hover en las imágenes de redes sociales */
   .image-footer:hover {
-    opacity: 0.8; /* Efecto de atenuación en hover */
+    opacity: 0.8; 
   }
   
   /* Estilos para el logo */
   footer .logo {
     margin-top: 20px;
-    max-width: 150px; /* Ajusta el tamaño del logo */
+    max-width: 150px; 
   }
   
   /* Responsividad */
@@ -53,15 +53,15 @@ footer {
     }
   
     .image-footer {
-      width: 40px; /* Aumenta el tamaño de las imágenes en pantallas pequeñas */
+      width: 40px; 
       height: 40px;
-      margin: 10px 0; /* Margen vertical entre las imágenes */
+      margin: 10px 0; 
     }
   }
   
   @media (max-width: 500px) {
     .image-footer {
-      width: 50px; /* Ajusta aún más el tamaño en pantallas muy pequeñas */
+      width: 50px; 
       height: 50px;
     }
   }

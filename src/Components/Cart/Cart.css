@@ -2,8 +2,8 @@
 .cartContainer {
   margin: 3%;
     padding: 5%;
-    background-color: #fff; /* Fondo blanco para contrastar con los productos */
-    border: 1px solid #000; /* Borde negro */
+    background-color: #fff; 
+    border: 1px solid #000; 
     border-radius: 10px;
     max-width: 1200px;
   }
@@ -15,13 +15,13 @@
   }
   
   .btnContainerCart h2 {
-    color: #d32f2f; /* Rojo para el texto */
+    color: #d32f2f; 
     margin-bottom: 20px;
   }
   
   .btnCart {
-    background-color: slategray; /* Naranja para el botón */
-    color: #fff; /* Texto blanco */
+    background-color: slategray; 
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -31,12 +31,12 @@
   }
   
   .btnCart:hover {
-    background-color: slateblue; /* Rojo oscuro en hover */
+    background-color: slateblue; 
   }
   
   /* Estilos para los productos en el carrito */
   .cartContainer h3 {
-    color: #000; /* Negro para el texto */
+    color: #000; 
     margin-top: 10px;
   }
   
@@ -49,22 +49,22 @@
   
   .buttonCart button,
   .buttonCart a {
-    background-color:  slategray; /* Naranja para los botones */
-    color: #fff; /* Texto blanco */
+    background-color:  slategray; 
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    flex: 1; /* Ocupa el mismo ancho en la fila */
-    margin: 0 5px; /* Espacio entre botones */
+    flex: 1; 
+    margin: 0 5px; 
   }
   
   /* Hover en los botones del carrito */
   .buttonCart button:hover,
   .buttonCart a:hover {
-    background-color: slateblue; /* Rojo para el hover en los botones */
+    background-color: slateblue; 
   }
   
   /* Estilos para los ítems del carrito */

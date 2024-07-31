@@ -9,21 +9,21 @@ h2{
 }
 /* Estilos básicos para el contenedor del ítem */
 .container-card {
-  background-color: slategrey; /* Fondo gris pizarra */
-  border: 2px solid #333; /* Borde azul pizarra */
+  background-color: slategrey; 
+  border: 2px solid #333; 
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  max-width: 300px; /* Ancho máximo del contenedor del ítem */
-  margin: 20px auto; /* Espaciado automático para centrado */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+  max-width: 300px; 
+  margin: 20px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover en el contenedor del ítem */
 .container-card:hover {
-  transform: scale(1.05); /* Escalar el contenedor en hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 /* Estilos para la imagen del ítem */
@@ -31,37 +31,37 @@ h2{
   background-color: #fff;
   width: 100%;
   height: 43%;
-  border-radius: 10px; /* Esquinas redondeadas para la imagen */
-  border: 2px solid #333; /* Borde azul pizarra para la imagen */
+  border-radius: 10px; 
+  border: 2px solid #333; 
   margin-bottom: 15px;
 }
 
 /* Estilos para el nombre del ítem */
 .container-card h3 {
-  color: #333; /* Azul pizarra para el nombre del ítem */
+  color: #333; 
   margin: 10px 0;
   font-size: 1.2em;
-  font-weight: bold; /* Fuente en negrita */
+  font-weight: bold; 
 }
 
 /* Estilos para el precio del ítem */
 .container-card p {
-  color: #ffffff; /* Naranja para el precio */
+  color: #ffffff; 
   font-size: 1.1em;
   margin: 5px 0;
-  font-weight: bold; /* Fuente en negrita */
+  font-weight: bold; 
 }
 
 /* Estilos para el stock del ítem */
 .container-card p:nth-of-type(3) {
-  color: #fff; /* Blanco para el stock para contraste */
+  color: #fff; 
   font-size: 1em;
   margin: 5px 0;
 }
 
 /* Estilos para el botón de detalles */
 button {
-  background-color: rgb(76, 76, 155); /* Rojo para el botón */
+  background-color: rgb(76, 76, 155); 
   border: none;
   border-radius: 5px;
   padding: 12px 20px;
@@ -72,7 +72,7 @@ button {
 
 /* Estilos para el enlace dentro del botón */
 .btnDetalles {
-  color: #fff; /* Texto blanco */
+  color: #fff;
   text-decoration: none;
   display: block;
   font-size: 1em;
@@ -80,43 +80,43 @@ button {
 
 /* Hover en el botón */
 button:hover {
-  background-color: #c62828; /* Rojo oscuro para el hover en el botón */
+  background-color: #c62828; 
 }
 
 /* Responsividad */
 @media (max-width: 768px) {
   .container-card {
-    max-width: 100%; /* Acomoda el contenedor al ancho de la pantalla en dispositivos pequeños */
+    max-width: 100%; 
     padding: 15px;
   }
 
   .container-card h3 {
-    font-size: 1.1em; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    font-size: 1.1em; 
   }
 
   .container-card p {
-    font-size: 1em; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    font-size: 1em;
   }
 
   button {
-    padding: 10px 15px; /* Ajusta el padding del botón */
+    padding: 10px 15px; 
   }
 }
 
 @media (max-width: 480px) {
   .container-card {
-    margin: 10px; /* Reduce el margen en pantallas más pequeñas */
+    margin: 10px; 
   }
 
   .container-card h3 {
-    font-size: 1em; /* Ajusta el tamaño de fuente en pantallas más pequeñas */
+    font-size: 1em; 
   }
 
   .container-card p {
-    font-size: 0.9em; /* Ajusta el tamaño de fuente en pantallas más pequeñas */
+    font-size: 0.9em; 
   }
 
   button {
-    padding: 8px 12px; /* Ajusta el padding del botón */
+    padding: 8px 12px; 
   }
 }

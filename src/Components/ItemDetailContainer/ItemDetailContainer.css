@@ -1,31 +1,31 @@
 /* Contenedor principal del ItemDetailContainer */
 .item-detail-container {
     padding: 20px;
-    background-color: bisque; /* Fondo blanco para contraste */
-    border: 1px solid #000; /* Borde negro */
+    background-color: bisque; 
+    border: 1px solid #000; 
     border-radius: 10px;
-    max-width: 800px; /* Ancho máximo del contenedor */
-    margin: 20px auto; /* Centrado del contenedor */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   /* Estilos para el contenedor de detalles del ítem */
   .item-detail-content {
     display: flex;
-    flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+    flex-wrap: wrap; 
     gap: 20px;
   }
   
   /* Estilos para la imagen del ítem */
   .item-detail-content .imgCard {
     width: 100%;
-    max-width: 400px; /* Ancho máximo para la imagen */
+    max-width: 400px; 
     border-radius: 10px;
   }
   
   /* Estilos para los datos del ítem */
   .item-detail-content .datosCard {
-    flex: 1; /* Ocupa el espacio restante */
+    flex: 1; 
     padding: 10px;
   }
   
@@ -41,8 +41,8 @@
     display: block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #ff9800; /* Naranja para el botón */
-    color: #fff; /* Texto blanco */
+    background-color: #ff9800; 
+    color: #fff; 
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -51,7 +51,7 @@
   }
   
   .item-detail-content .BtnTerminarCompra:hover {
-    background-color: #d32f2f; /* Rojo para el hover */
+    background-color: #d32f2f; 
   }
   
   /* Responsividad */
@@ -61,12 +61,12 @@
     }
   
     .item-detail-content {
-      flex-direction: column; /* Coloca el contenido en columna en pantallas más pequeñas */
-      align-items: center; /* Centra el contenido */
+      flex-direction: column; 
+      align-items: center; 
     }
   
     .item-detail-content .imgCard {
-      max-width: 100%; /* Acomoda la imagen al ancho del contenedor en pantallas pequeñas */
+      max-width: 100%; 
     }
   }
   
@@ -78,7 +78,7 @@
     .item-detail-content h2,
     .item-detail-content h3,
     .item-detail-content p {
-      font-size: 0.9em; /* Ajusta el tamaño de fuente */
+      font-size: 0.9em; 
     }
   
     .item-detail-content .BtnTerminarCompra {

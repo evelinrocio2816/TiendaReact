@@ -9,6 +9,7 @@ function NavBar() {
       <div className="logo">
         <Logo />
       </div>
+      <div className="nav-cart">
       <nav>
         <ul>
           <li>
@@ -25,7 +26,9 @@ function NavBar() {
           </li>
         </ul>
       </nav>
+      
       <Cartwidget className="cart-widget" />
+    </div>
     </header>
   );
 }

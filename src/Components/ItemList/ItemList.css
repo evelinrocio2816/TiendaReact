@@ -3,45 +3,45 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espacio entre los productos */
+    gap: 20px; 
     padding: 20px;
   }
   
   /* Estilos para los productos individuales (ajustar según tu diseño) */
   .products .item {
-    background-color: #e46565; /* Fondo blanco para los productos */
-    border: 1px solid #ddd; /* Borde gris claro */
+    background-color: #e46565; 
+    border: 1px solid #ddd; 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 250px; /* Ajusta el ancho de los productos */
+    width: 250px; 
     padding: 15px;
     text-align: center;
   }
   
   /* Hover en los productos */
   .products .item:hover {
-    transform: translateY(-5px); /* Efecto de elevar el producto */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
   }
   
   /* Estilo para el título del producto */
   .products .item h3 {
-    color: #333; /* Color negro oscuro para el texto */
+    color: #333;
     margin-bottom: 10px;
   }
   
   /* Estilo para los precios o botones */
   .products .item .price,
   .products .item .button {
-    color: #f57c00; /* Naranja para el precio o botones */
+    color: #f57c00; 
     font-size: 1.2rem;
     font-weight: bold;
   }
   
   /* Estilo para las descripciones u otros textos */
   .products .item p {
-    color: #555; /* Color gris oscuro para descripciones */
+    color: #555; 
     font-size: 0.9rem;
   }
   
@@ -53,14 +53,13 @@
     }
   
     .products .item {
-      width: 90%; /* Ajusta el ancho en pantallas pequeñas */
-      margin: 10px 0; /* Margen vertical en pantallas pequeñas */
+      width: 90%;
+      margin: 10px 0; 
     }
   }
   
   @media (max-width: 480px) {
     .products .item {
-      width: 100%; /* Ajusta al ancho completo en pantallas muy pequeñas */
-    }
+      width: 100%; 
   }
-  
+}

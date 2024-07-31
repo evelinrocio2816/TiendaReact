@@ -1,8 +1,8 @@
 /* Estilos básicos para el contenedor del checkout */
 .checkout-cart {
   padding: 20px;
-  background-color: #fff; /* Fondo blanco para contrastar */
-  border: 1px solid #000; /* Borde negro */
+  background-color: #fff; 
+  border: 1px solid #000; 
   border-radius: 10px;
   max-width: 800px;
   margin: auto;
@@ -11,7 +11,7 @@
 
 /* Estilos para el título del checkout */
 .title-checkout {
-  color: slateblue; /* Naranja para el título */
+  color: slateblue;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -22,7 +22,7 @@
 }
 
 .checkout-cart p {
-  color: #000; /* Negro para el texto de los productos */
+  color: #000; 
 }
 
 /* Estilos para el formulario */
@@ -32,20 +32,20 @@
 
 .form-group label {
   display: block;
-  color: #000; /* Negro para las etiquetas */
+  color: #000;
   margin-bottom: 5px;
 }
 
 .form-group input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #000; /* Borde negro */
+  border: 1px solid #000; 
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 .form-group input[type="number"] {
-  -moz-appearance: textfield; /* Elimina flechas en campos numéricos */
+  -moz-appearance: textfield; 
 }
 
 .form-group input[type="number"]::-webkit-inner-spin-button,
@@ -56,15 +56,15 @@
 
 /* Estilo para el mensaje de error */
 .error-message {
-  color: #d32f2f; /* Rojo para los errores */
+  color: #d32f2f; 
   margin-top: 10px;
   text-align: center;
 }
 
 /* Estilos para el botón de formulario */
 .btnForm {
-  background-color: slategray; /* Naranja para el botón */
-  color: #fff; /* Texto blanco */
+  background-color: slategray; 
+  color: #fff; 
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -75,20 +75,20 @@
 }
 
 .btnForm:hover {
-  background-color: slateblue; /* Rojo para el hover en el botón */
+  background-color: slateblue; 
 }
 
 /* Estilos para la cantidad total y número de orden */
 .checkout-cart p:last-of-type {
   font-size: 18px;
   font-weight: bold;
-  color: #000; /* Negro para el texto */
+  color: #000;
   text-align: center;
   margin-top: 20px;
 }
 
 .orderId {
-  color: #fff; /* Naranja para el número de orden */
+  color: #fff; 
   font-weight: bold;
 }
 
